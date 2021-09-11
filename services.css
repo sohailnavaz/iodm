@@ -1,0 +1,19 @@
+.margingiven{
+    margin: 150px;
+    margin-top: 20px;
+}
+.serviesdetails{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
+
+}
+ul li:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.bot{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
