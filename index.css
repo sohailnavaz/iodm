@@ -51,7 +51,7 @@ span {
 
 .btn1 {
     height: 60px;
-    width: 200px;
+    /* width: 200px; */
     margin-left: 10px;
     margin-bottom: 40px;
 
@@ -62,7 +62,10 @@ span {
 .center .btn-sm{
     margin-top: 20px;
     position: absolute;
-    left: 45%;
+    left: 40%;
+}
+.center{
+    margin-bottom: 90px;
 }
 
 .btn-sm h2{
@@ -75,13 +78,12 @@ span {
 }
 
 .weoffer {
-    height: 100vh;
+    /* height: 90vh; */
     padding-top: 40px;
     z-index: 1;
     margin: 200px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 20px;
-   
 }
 .cardsgroup{
     display: grid;
@@ -103,7 +105,7 @@ span {
 .team{
     margin: 100px;
     margin-bottom: 40px;
-    margin-top:0px;
+    margin-top:20px;
     display: grid;
     grid-template-columns: 40% auto;
     column-gap: 20px;
@@ -130,4 +132,11 @@ span {
   width: 60%;
   padding: 10px;
   margin-top: 20px;
+}
+.procedure{
+    margin: 200px;
+    margin-top: 0px;
+}
+.proceduretitle{
+    margin-left: -90px;
 }
