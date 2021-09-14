@@ -17,3 +17,7 @@ ul li:hover{
     justify-content: center;
     margin-top: 10px;
 }
+.dark-bg{
+    background-color: #1f1f1f;
+    padding: 40px;
+}
