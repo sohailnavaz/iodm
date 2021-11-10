@@ -24,11 +24,12 @@ span {
 
 .herotext {
     margin: 200px;
+    margin-top: 0px;
     margin-left: 100px;
-    margin-top: 100px;
     background-color: #ffffff6e;
     border-radius: 20px;
     padding-left: 40px;
+    padding-top: 100px;
 }
 
 .herotext h1 {
