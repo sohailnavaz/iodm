@@ -36,6 +36,25 @@
             <a class="navbar-brand " href="./index.html">
                 <img src="./assests/logo.svg" alt="" width="228" height="50" class="d-inline-block align-text-top ">
             </a>
+
+            <!-- <a href="#"> <span>Login</span> </a> -->
+            <button class="open-button" onclick="openForm()">Sign-in</button>
+
+            <div class="form-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+                <h3>Sign-in</h3>
+            
+                <label for="email">Email/User-Id</label>
+                <input type="text" placeholder="Enter Email / User-Id" name="email" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+            
         </div>
     </nav>
 
@@ -47,9 +66,9 @@
             <h1>One stop for all your Software <span>solutions & consulting </span></h1>
             <p>If our looking for comited and stressless devlopment team <br><span>- you came to the right place</span>
             </p>
-            <button type="button" class=" btn1  btn-danger btn-lg">
+            <button type="button" class=" btn1  btn-danger btn-sm ">
                 <a href="#">
-                    <h2 style="color: white;">Hire now</h2>
+                    <h2 style="color: white;">Tell us about your project</h2>
                 </a>
             </button>
         </div>
@@ -273,6 +292,17 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/main.js"></script>
+
+
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
 </body>
 
 </html>
